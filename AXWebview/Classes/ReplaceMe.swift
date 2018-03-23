@@ -1,5 +1,5 @@
 public class Person : NSObject {
     public func test(){
-        print("hello world")
+        print("hello world ， I am Jim")
     }
 }
