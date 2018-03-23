@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AXWebview_Example' do
+  pod 'AXWebview', :path => '../'
+
+  target 'AXWebview_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
