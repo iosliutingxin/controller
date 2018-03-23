@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CC8519A023D43E5A0102257 /* AXWebview.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AXWebview.podspec; path = ../AXWebview.podspec; sourceTree = "<group>"; };
+		0CC8519A023D43E5A0102257 /* AXWebview.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AXWebview.podspec; path = ../AXWebview.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1C36AD83D3CF8022B856F72D /* Pods-AXWebview_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXWebview_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXWebview_Example/Pods-AXWebview_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		25B15DBF4528019CA84238E6 /* Pods_AXWebview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXWebview_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		522672E89A2813200E2A4DE8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		522672E89A2813200E2A4DE8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AXWebview_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXWebview_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6780906E62E02E9104CFE5BC /* Pods-AXWebview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXWebview_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXWebview_Tests/Pods-AXWebview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7413BD23212324AAA6799791 /* Pods-AXWebview_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXWebview_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXWebview_Example/Pods-AXWebview_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ABEC30DD2E52C5AFBC0E4AAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ABEC30DD2E52C5AFBC0E4AAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D590A3A74BB9E91E7B260839 /* Pods-AXWebview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXWebview_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXWebview_Tests/Pods-AXWebview_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E08D145231581A2AA7A8EA6E /* Pods_AXWebview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXWebview_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -547,7 +547,7 @@
 			baseConfigurationReference = 6780906E62E02E9104CFE5BC /* Pods-AXWebview_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -568,7 +568,7 @@
 			baseConfigurationReference = D590A3A74BB9E91E7B260839 /* Pods-AXWebview_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;

@@ -1,0 +1,22 @@
+{
+  "name": "AXWebview",
+  "version": "0.1.0",
+  "summary": "A short description of AXWebview.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1778714848@qq.com/AXWebview",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1778714848@qq.com": "17787148484@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1778714848@qq.com/AXWebview.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AXWebview/Classes/**/*"
+}

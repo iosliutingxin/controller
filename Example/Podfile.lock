@@ -1,0 +1,16 @@
+PODS:
+  - AXWebview (0.1.0)
+
+DEPENDENCIES:
+  - AXWebview (from `../`)
+
+EXTERNAL SOURCES:
+  AXWebview:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AXWebview: a0bb1e9083621edfbb66ae16bb6e042c90ace7be
+
+PODFILE CHECKSUM: 6ee9a89e926ae1b2bcb4f92561190812c9da006a
+
+COCOAPODS: 1.4.0
