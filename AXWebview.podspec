@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1778714848@qq.com/AXWebview'
+  s.homepage         = 'https://github.com/iosliutingxin/controller'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1778714848@qq.com' => '17787148484@qq.com' }
-  s.source           = { :git => 'https://github.com/1778714848@qq.com/AXWebview.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iosliutingxin/controller.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
